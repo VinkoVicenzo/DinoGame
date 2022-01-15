@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+.col-12 {
+    height:35vw;
+    margin-top: 1vw;
+    position: relative;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#trex {
+    position: absolute;
+    bottom: 0;
+    left: 50;
+}
+
+.pular {
+    animation: pula 500ms;
+}
+
+#dino {
+    height:10vw;
+}
+
+#cactos {
+    height:8vw;
+}
+
+#obstaculo {
+    position: absolute;
+    bottom: 0;
+    right: 45;
+    width: 70;
+}
+
+.jogar {
+    animation: desliza 6s infinite linear;
+}
+
+@keyframes desliza {
+    0%{left:1400px}
+    100%{left:-180px}
+}
+
+@keyframes pula {
+    0%{top:220px;}
+    30%{top:80px;}
+    70%{top:80px;}
+    100%{top:220px;}
+
+}
+
+#pont {
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#btn {
+    text-align: center;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 15vw;
+    height: 3vw;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.botao {
+    text-align: center;
+}
+
+.remove {
+    display: none;
+}
+
+.nivelUm {
+    animation: desliza 5s linear infinite;
+}
+
+.nivelDois {
+    animation: desliza 4s linear infinite;
+}
+
+.nivelTres {
+    animation: desliza 3s linear infinite;
+}
+
+.nivelQuatro {
+    animation: desliza 2s linear infinite;
+}
+
+.nivelCinco {
+    animation: desliza 1s linear infinite;
+}
